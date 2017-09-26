@@ -1,0 +1,61 @@
+h1 {
+    display: none;
+}
+
+.box-content {
+    padding-top: 30px;
+}
+
+.breadcrumb {
+    font-size: inherit;
+    color: #2063A6;
+}
+
+.breadcrumb:last-child {
+    color: #000;
+}
+
+.breadcrumb:before {
+    content: '>';
+    color: rgba(0,0,0,0.7);
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11px;
+    margin: 0 10px 0 8px;
+    -webkit-font-smoothing: antialiased;
+}
+
+thead {
+    display: none;
+    border-width: 0;
+}
+
+tbody > tr:first-child {
+    display: none;
+}
+
+table>thead>tr,
+table>tbody>tr {
+    border-bottom: 1px solid #f3f0f0;
+}
+
+td, th {
+    padding: 15px;
+}
+
+td > a {
+   padding: 7px 0 5px 23px;
+}
+
+/* Icons */
+#list a {
+    background: url('/voshod_avto_certs/icons/file.png') left center no-repeat;
+}
+
+#list a[href$="/"],
+#list a[href*="/?"] {
+    background: url('/voshod_avto_certs/icons/folder_black.png') left center no-repeat;
+}

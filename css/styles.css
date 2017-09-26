@@ -563,29 +563,3 @@ a:hover {
 .header_search_panel .header_search_panel_container .favorites_button:hover {
     opacity: 1;
 }
-
-/* custom */
-
-h1 {
-    display: none;
-}
-
-
-thead {
-    display: none;
-    border-width: 0;
-}
-
-tbody > tr:first-child {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
