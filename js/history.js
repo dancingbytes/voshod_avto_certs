@@ -27,7 +27,7 @@ if (!!(window.history && history.pushState)) {
   })();
 
   var updateCrumbs = function() {
-    window.document.title = window.location.pathname;
+
     setTimeout(function () {
       var loc = window.location.pathname;
       var segments = loc.split('/');
