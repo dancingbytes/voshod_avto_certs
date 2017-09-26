@@ -2,8 +2,9 @@ h1 {
     display: none;
 }
 
-.box-content {
-    padding-top: 30px;
+.breadcrumbs {
+    padding: 20px 10px 10px 15px;
+    font-size:14px;
 }
 
 .breadcrumb {
@@ -23,7 +24,7 @@ h1 {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 11px;
+    font-size: 12px;
     margin: 0 10px 0 8px;
     -webkit-font-smoothing: antialiased;
 }
