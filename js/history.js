@@ -1,3 +1,5 @@
+"use strict";
+
 if (!!(window.history && history.pushState)) {
 
   var addEvent = (function () {
@@ -36,7 +38,7 @@ if (!!(window.history && history.pushState)) {
       for (var i = 0; i < segments.length; i++) {
         if (segments[i] !== '') {
           currentPath += segments[i] + '/';
-          breadcrumbs += '<a href="' +  currentPath + '" class="breadcrumb">' + window.unescape(segments[i]) + '<\/a>';
+          breadcrumbs += '<a href="' +  currentPath + '" class="breadcrumb">' + window.decodeURI(segments[i]) + '<\/a>';
         } else if (segments.length -1 !== i) {
           currentPath += '';
           breadcrumbs += '<a href="' + currentPath + '" class="breadcrumb">Главная<\/a>';
