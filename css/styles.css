@@ -1,0 +1,591 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Default Styles */
+
+body {
+	background-color: #ffffff;
+	font-family: "GothamProRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+}
+
+a {
+    cursor: pointer;
+    color: #2063A6;
+    text-decoration: none;
+
+    -moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tlink {
+    -moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+
+/* ---------- Top Tabs ---------- */
+
+.top_tabs {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #4A4A4A;
+    text-align: center;
+    background-color: #EDEDED;
+}
+
+.top_tabs .top_tabs_container {
+    height: 32px;
+    text-align: left;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    align-items: center;
+}
+
+.top_tabs .top_tabs_container .item {
+    display: inline-block;
+    padding: 0 20px 0 16px;
+    color: #4A4A4A;
+}
+
+.top_tabs .top_tabs_container .item:hover {
+    color: #1A171B;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.top_tabs .top_tabs_container .item img {
+    vertical-align	: middle;
+    margin-top: -3px;
+    opacity: 0.5;
+}
+
+.top_tabs .top_tabs_container .item:hover img {
+    opacity: 1.0;
+}
+
+.top_tabs .top_tabs_container .item.active {
+    background-color: #FFFFFF;
+    color: #1A171B;
+    cursor: default;
+}
+
+.top_tabs .top_tabs_container .item.active img {
+    opacity: 1.0;
+}
+
+/* ---------- Header red panel ---------- */
+
+.header_red_panel {
+    width: 100%;
+    height: 64px;
+    background-color: #D8232A;
+    color: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header_red_panel .header_red_panel_container {
+    height: 64px;
+    text-align: left;
+
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* header logo */
+
+.header_red_panel .header_red_panel_container .v-avto_logo {
+    width: 128px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.header_red_panel .header_red_panel_container .v-avto_logo:hover {
+    opacity: 0.8;
+}
+
+/* header location */
+
+.header_red_panel .header_red_panel_container .header_location {
+    height: 24px;
+    width: 200px;
+    position: relative;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 0px 30px 0 30px;
+    margin-left: 40px;
+    background-image: url(/voshod_avto_certs/img/ic_location_white_bold.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+}
+
+.header_red_panel .header_red_panel_container .header_location:after {
+    width: 24px;
+    height: 24px;
+    content: "";
+    background-image: url(/voshod_avto_certs/img/ic_list_arrow_down_24.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+    -moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.header_red_panel .header_red_panel_container .header_location:hover:after {
+    opacity: 1.0;
+}
+
+/* header phone */
+
+.header_red_panel .header_red_panel_container .header_phone {
+    margin: 0 auto 0 0;
+
+    height: 24px;
+    position: relative;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 0px 20px 0 30px;
+    margin-left: 20px;
+    background-image: url(/voshod_avto_certs/img/ic_phone_white_bold.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.header_red_panel .header_red_panel_container .header_phone a {
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.5;
+    display: block;
+}
+
+.header_red_panel .header_red_panel_container .header_phone a:hover {
+    opacity: 1.0;
+}
+
+/* header user block */
+
+.header_red_panel .header_red_panel_container .profile_menu_container {
+    width: 220px;
+    height: 24px;
+    position: relative;
+    font-size: 14px;
+    padding: 0px 30px 0 30px;
+    margin-left: 20px;
+    background-image: url(/voshod_avto_certs/img/ic_account_circle_white_bold.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.header_red_panel .header_red_panel_container .profile_menu_container .accaunt_name {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    line-height: 14px;
+}
+
+.header_red_panel .header_red_panel_container .profile_menu_container .user_name {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+    font-size: 11px;
+    line-height: 11px;
+    color: rgba(255,255,255,0.5);
+}
+
+.header_red_panel .header_red_panel_container .profile_menu_container:after {
+    width: 24px;
+    height: 24px;
+    content: "";
+    background-image: url(/voshod_avto_certs/img/ic_list_arrow_down_24.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    opacity: 0.5;
+    -moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.header_red_panel .header_red_panel_container .profile_menu_container:hover:after {
+    opacity: 1.0;
+}
+
+/* header notifications counter */
+
+.header_red_panel .header_red_panel_container .notification_counter {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header_red_panel .header_red_panel_container .notification_counter:before {
+    content: "";
+    width: 24px;
+    height: 48px;
+    background-image: url(/voshod_avto_certs/img/ic_notifications_white_bold.svg);
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -24px;
+}
+
+.header_red_panel .header_red_panel_container .notification_counter.new:before {
+    animation-name: tossing2;
+    -webkit-animation-name: tossing2;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.header_red_panel .header_red_panel_container .notification_counter:after {
+    content: "99+";
+    font-size: 8px;
+    min-width: 16px;
+    text-align: center;
+    height: 16px;
+    line-height: 12px;
+    background-color: #FFFFFF;
+    color: #D8232A;
+    border: 2px solid #D8232A;
+    position: absolute;
+    padding: 0 2px;
+    top: -4px;
+    left: 12px;
+    overflow: hidden;
+    font-family: "GothamProMedium";
+
+    -moz-border-radius: 8px;
+ 	-webkit-border-radius: 8px;
+ 	border-radius: 8px;
+}
+
+
+/* ---------- Header Search Panel ---------- */
+
+.header_search_panel {
+    width: 100%;
+    height: 74px;
+    text-align: center;
+
+    -moz-box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
+	-webkit-box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
+	box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
+}
+
+.header_search_panel .header_search_panel_container {
+    height: 74px;
+    text-align: left;
+
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Burger Menu */
+
+.header_search_panel .header_search_panel_container .menu_burger {
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger .icon {
+    width: 10px;
+    height: 2px;
+    background-color: #323232;
+    position: absolute;
+    left: 3px;
+    top: 10px;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger:hover .icon {
+    width: 18px;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger .icon:before {
+    content: "";
+    width: 18px;
+    height: 2px;
+    background-color: #323232;
+    position: absolute;
+    top: -6px;
+
+    -moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger:hover .icon:before {
+    width: 10px;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger .icon:after {
+    content: "";
+    width: 18px;
+    height: 2px;
+    background-color: #323232;
+    position: absolute;
+    top: 6px;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger .burger_text {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: #323232;
+    font-family: "GothamProBold", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header_search_panel .header_search_panel_container .menu_burger:hover .burger_text {
+    color: #000000;
+}
+
+/* search field */
+
+.header_search_panel .header_search_panel_container .search_line {
+    margin: 0 auto 0 0;
+}
+
+.header_search_panel .header_search_panel_container .seach_desktop {
+    width: 450px;
+    height: 38px;
+    background-color: #F3F3F3;
+    padding: 0 38px 0 10px;
+    position: relative;
+}
+
+.header_search_panel .header_search_panel_container .seach_desktop input {
+    padding: 0;
+    margin: 0;
+    height: 38px;
+    line-height: 38px;
+    font-family: "GothamProRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+}
+
+.header_search_panel .header_search_panel_container .seach_desktop input:focus {
+    border: none;
+
+    -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.header_search_panel .header_search_panel_container .seach_desktop input::-webkit-input-placeholder {
+    line-height: 38px;
+    height: 38px;
+    color: #9B9B9B;
+    font-family: "GothamProLight", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-overflow:ellipsis;
+}
+.header_search_panel .header_search_panel_container .seach_desktop input::-moz-placeholder {
+    line-height: 38px;
+    height: 38px;
+    color: #9B9B9B;
+    font-family: "GothamProLight", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-overflow:ellipsis;
+}
+.header_search_panel .header_search_panel_container .seach_desktop input:-moz-placeholder {
+    line-height: 38px;
+    height: 38px;
+    color: #9B9B9B;
+    font-family: "GothamProLight", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-overflow:ellipsis;
+}
+.header_search_panel .header_search_panel_container .seach_desktop input:-ms-input-placeholder {
+    line-height: 38px;
+    height: 38px;
+    color: #9B9B9B;
+    font-family: "GothamProLight", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-overflow:ellipsis;
+}
+
+.header_search_panel .header_search_panel_container .seach_desktop .search_button {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/ic_search_grey.svg);
+    background-size: contain;
+    cursor: pointer;
+    opacity: 0.6;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.header_search_panel .header_search_panel_container .seach_desktop .search_button:hover {
+    opacity: 1.0;
+}
+
+/* Cart Button */
+
+.header_search_panel .header_search_panel_container .cart_button_container {
+    color: #323232;
+
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header_search_panel .header_search_panel_container .cart_button_container .cart_button {
+    font-family: "GothamProMedium", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #DDDFE0;
+    cursor: pointer;
+    padding: 0 10px 0 38px;
+    background-image: url(/voshod_avto_certs/img/ic_cart_grey.svg);
+    background-position: 7px 6px;
+    background-repeat: no-repeat;
+
+    -moz-border-radius: 6px 0 0 6px;
+ 	-webkit-border-radius: 6px 0 0 6px;
+ 	border-radius: 6px 0 0 6px;
+}
+
+.header_search_panel .header_search_panel_container .cart_button_container .cart_button:hover,
+.header_search_panel .header_search_panel_container .cart_button_container .price_discount:hover,
+.header_search_panel .header_search_panel_container .order_button:hover {
+    border-color: #9299A2;
+}
+
+.header_search_panel .header_search_panel_container .cart_button_container .cart_button .cart_counter {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    height: 18px;
+    min-width: 18px;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 4px;
+    margin: 0 0 0 7px;
+    background-color: #2063A6;
+
+    -moz-border-radius: 2px;
+ 	-webkit-border-radius: 2px;
+ 	border-radius: 2px;
+}
+
+.header_search_panel .header_search_panel_container .cart_button_container .price_discount {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: -1px;
+    cursor: pointer;
+    color: #939AA3;
+    background-image: url(/voshod_avto_certs/img/ic_discount_grey.svg);
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #DDDFE0;
+    border-left: 1px solid rgba(221,223,224,0);
+
+    -moz-border-radius: 0 6px 6px 0;
+ 	-webkit-border-radius: 0 6px 6px 0;
+ 	border-radius: 0 6px 6px 0;
+}
+
+.header_search_panel .header_search_panel_container .order_button {
+    font-family: "GothamProLight", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #DDDFE0;
+    cursor: pointer;
+    padding: 0 10px 0 38px;
+    margin-left: 15px;
+    color: #666B72;
+    background-image: url(/voshod_avto_certs/img/ic_orders_grey.svg);
+    background-position: 7px 6px;
+    background-repeat: no-repeat;
+
+    -moz-border-radius: 6px;
+ 	-webkit-border-radius: 6px;
+ 	border-radius: 6px;
+}
+
+/* favorites button */
+
+.header_search_panel .header_search_panel_container .favorites_button {
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    background-image: url(/voshod_avto_certs/img/ic_star_grey.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    margin-left: 5px;
+}
+
+.header_search_panel .header_search_panel_container .favorites_button:hover {
+    opacity: 1;
+}
+
+/* custom */
+
+h1 {
+    display: none;
+}
+
+
+thead {
+    display: none;
+    border-width: 0;
+}
+
+tbody > tr:first-child {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

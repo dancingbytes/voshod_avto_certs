@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_search_grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="ic_search_grey" stroke="#9299A2">
+            <path d="M15.3958688,9.46350625 C15.3958688,12.7402563 12.7396188,15.3954438 9.46393125,15.3954438 C6.18718125,15.3954438 3.53093125,12.7402563 3.53093125,9.46350625 C3.53093125,6.18675625 6.18718125,3.53156875 9.46393125,3.53156875 C12.7396188,3.53156875 15.3958688,6.18675625 15.3958688,9.46350625 Z" id="Stroke-1"></path>
+            <path d="M13.7318875,13.5772937 L19.36845,19.2138562" id="Stroke-3"></path>
+        </g>
+    </g>
+</svg>
