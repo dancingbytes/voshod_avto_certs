@@ -52,17 +52,17 @@ td, th {
 }
 
 td > a {
-   padding: 7px 0 5px 23px;
+   padding: 7px 0 5px 30px;
 }
 
 /* Icons */
 #list a {
-    background: url('/voshod_avto_certs/icons/file.png') left center no-repeat;
+    background: url('/voshod_avto_certs/img/ic_download_blue_24.svg') left center no-repeat;
 }
 
 #list a[href$="/"],
 #list a[href*="/?"] {
-    background: url('/voshod_avto_certs/icons/folder_black.png') left center no-repeat;
+    background: url('/voshod_avto_certs/img/ic_folder_blue_24.svg') left center no-repeat;
 }
 
 @media (max-width: 800px) {
