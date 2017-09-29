@@ -55,6 +55,14 @@ td > a {
    padding: 7px 0 5px 30px;
 }
 
+.page-footer .footer-copyright .container {
+    border-top-width: 0;
+}
+
+.page-footer {
+    padding-top: 0;
+}
+
 /* Icons */
 #list a {
     background: url('/voshod_avto_certs/img/ic_download_blue_24.svg') left center no-repeat;

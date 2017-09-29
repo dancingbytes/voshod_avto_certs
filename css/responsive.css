@@ -10,7 +10,8 @@
 .top_tabs .top_tabs_container,
 .header_red_panel .header_red_panel_container,
 .header_search_panel .header_search_panel_container,
-.main {
+.main,
+.page-footer .container {
     box-sizing: order-box;
     width: 1024px;
     padding: 0 40px;
@@ -24,7 +25,8 @@
     .top_tabs .top_tabs_container,
     .header_red_panel .header_red_panel_container,
     .header_search_panel .header_search_panel_container,
-    .main {
+    .main,
+    .page-footer .container {
         width: 100%;
         min-width: 320px;
     }
@@ -34,10 +36,11 @@
     .top_tabs .top_tabs_container {
         padding: 0 10px;
     }
-    
+
     .header_red_panel .header_red_panel_container,
     .header_search_panel .header_search_panel_container,
-    .main {
+    .main,
+    .page-footer .container {
         padding: 0 20px;
     }
 }
@@ -66,19 +69,19 @@
         margin: 0 10px;
         padding: 0;
     }
-    
+
     .header_red_panel .header_red_panel_container .profile_menu_container .accaunt_name {
         display: none;
     }
-    
+
     .header_red_panel .header_red_panel_container .profile_menu_container .user_name {
         display: none;
     }
-    
+
     .header_red_panel .header_red_panel_container .profile_menu_container:after {
         display: none;
     }
-        
+
 }
 
 @media (max-width: 800px) {
@@ -104,7 +107,10 @@
         width: 116px;
         height: 29px;
     }
-    
+    .header_search_panel .header_search_panel_container .mobile_search_container {
+        display: block;
+    }
+
 }
 
 /* Header Search Panel */
@@ -114,6 +120,10 @@
     }
     .header_search_panel .header_search_panel_container {
         height: 48px;
+    }
+
+    .header_search_panel .header_search_panel_container .desktop_search {
+        display: none;
     }
 }
 
@@ -156,6 +166,20 @@
 /* Mobile Search */
 
 @media (max-width: 800px) {
-    
+
 }
 
+/* Footer */
+
+@media (max-width: 720px) {
+    .page-footer .footer_links {
+        display: none;
+    }
+
+    .page-footer .footer_soc_block {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+}
