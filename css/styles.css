@@ -4,12 +4,12 @@
 /* Default Styles */
 
 body {
-	background-color: #ffffff;
-	font-family: "GothamProRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #000000;
-	font-size: 14px;
-	margin: 0;
-	padding: 0;
+    background-color: #ffffff;
+    font-family: "GothamProRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
     width: 100%;
     min-width: 320px;
 
@@ -28,9 +28,9 @@ a {
     text-decoration: none;
 
     -moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 a:hover {
@@ -39,9 +39,9 @@ a:hover {
 
 .tlink {
     -moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .main {
@@ -93,7 +93,7 @@ h5 {
 }
 
 .top_tabs .top_tabs_container .item img {
-    vertical-align	: middle;
+    vertical-align  : middle;
     margin-top: -3px;
     opacity: 0.5;
 }
@@ -175,9 +175,9 @@ h5 {
     right: 10px;
     opacity: 0.5;
     -moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .header_red_panel .header_red_panel_container .header_location:hover:after {
@@ -259,9 +259,9 @@ h5 {
     top: 0;
     opacity: 0.5;
     -moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .header_red_panel .header_red_panel_container .profile_menu_container:hover:after {
@@ -315,8 +315,8 @@ h5 {
     font-family: "GothamProMedium";
 
     -moz-border-radius: 8px;
- 	-webkit-border-radius: 8px;
- 	border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 
 /* Not authorized user */
@@ -346,8 +346,8 @@ h5 {
     text-align: center;
 
     -moz-box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
-	-webkit-box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
-	box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
+    -webkit-box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
+    box-shadow: 0px 5px 5px rgba(17,17,17,0.04);
 }
 
 .header_search_panel .header_search_panel_container {
@@ -408,9 +408,9 @@ h5 {
     top: -6px;
 
     -moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .header_search_panel .header_search_panel_container .menu_burger:hover .icon:before {
@@ -466,7 +466,7 @@ h5 {
     border: none;
 
     -moz-box-shadow: none;
-	-webkit-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -547,8 +547,8 @@ h5 {
     background-repeat: no-repeat;
 
     -moz-border-radius: 6px 0 0 6px;
- 	-webkit-border-radius: 6px 0 0 6px;
- 	border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px 0 0 6px;
+    border-radius: 6px 0 0 6px;
 }
 
 .header_search_panel .header_search_panel_container .cart_button_container .cart_button:hover,
@@ -570,8 +570,8 @@ h5 {
     background-color: #2063A6;
 
     -moz-border-radius: 2px;
- 	-webkit-border-radius: 2px;
- 	border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
 }
 
 .header_search_panel .header_search_panel_container .cart_button_container .price_discount {
@@ -589,8 +589,8 @@ h5 {
     border-left: 1px solid rgba(221,223,224,0);
 
     -moz-border-radius: 0 6px 6px 0;
- 	-webkit-border-radius: 0 6px 6px 0;
- 	border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0;
 }
 
 .header_search_panel .header_search_panel_container .order_button {
@@ -608,8 +608,8 @@ h5 {
     background-repeat: no-repeat;
 
     -moz-border-radius: 6px;
- 	-webkit-border-radius: 6px;
- 	border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
 }
 
 /* favorites button */
@@ -651,7 +651,7 @@ h5 {
 .header_search_panel .header_search_panel_container .mobile_search_container .mobile_search_button {
     width: 24px;
     height: 24px;
-    background-image: url(../img/ic_search_grey.svg);
+    background-image: url(/voshod_avto_certs/img/ic_search_grey.svg);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -668,7 +668,7 @@ h5 {
 .header_search_panel .header_search_panel_container .mobile_search_container .mobile_search_clear_button {
     width: 24px;
     height: 24px;
-    background-image: url(../img/ic_clear_grey.svg);
+    background-image: url(/voshod_avto_certs/img/ic_clear_grey.svg);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -727,6 +727,7 @@ h5 {
     font-family: "GothamProLight", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #1E232F;
     font-size: 14px;
+    margin-top: 60px;
 
 }
 
