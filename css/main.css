@@ -645,12 +645,12 @@ header.down {
 }
 
 main {
- padding-top: 180px;
+ padding-top: 100px;
 }
 
 @media (max-width: 768px) {
     main {
-        padding-top: 140px;
+        padding-top: 80px;
     }
 
     header.up {
