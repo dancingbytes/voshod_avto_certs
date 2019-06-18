@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_sort_arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_sort_arrow_down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Stroke-5" stroke="#FFFFFF" stroke-width="1.6" points="13 9.0306 9.01416962 13.3344 5 9"></polyline>
+        <path d="M9,12.3344 L9,5.5" id="Line" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="square"></path>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_logout_grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_logout_grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group" transform="translate(5.000000, 3.000000)" stroke="#9299A2" stroke-width="1.6">
+            <path d="M3.499125,3 C1.407875,4.210125 0,6.472 0,9.062875 C0,12.928625 3.13425,16.062875 7,16.062875 C10.866625,16.062875 14,12.928625 14,9.062875 C14,6.493 12.614875,4.246 10.55075,3.028875" id="Stroke-1"></path>
+            <path d="M7,9.875 L7,0" id="Stroke-3"></path>
+        </g>
+    </g>
+</svg>

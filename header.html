@@ -5,44 +5,118 @@
       <title>СЕРТИФИКАТЫ ПРОДУКЦИИ</title>
 
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="/voshod_avto_certs/css/materialize.min.css?v3"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="/voshod_avto_certs/css/materialize.min.css?v4"  media="screen,projection"/>
 
       <!-- V-Avto CSS -->
-      <link rel="stylesheet" href="/voshod_avto_certs/css/fonts.css?v3" type="text/css" />
-      <link rel="stylesheet" href="/voshod_avto_certs/css/styles.css?v3" type="text/css" />
-      <link rel="stylesheet" href="/voshod_avto_certs/css/responsive.css?v3" type="text/css" />
-      <link rel="stylesheet" href="/voshod_avto_certs/css/animations.css?v3" type="text/css" />
-      <link rel="stylesheet" href="/voshod_avto_certs/css/custom.css?v3" type="text/css" />
+      <link rel="stylesheet" href="/voshod_avto_certs/css/fonts.css?v4" type="text/css" />
+      <link rel="stylesheet" href="/voshod_avto_certs/css/styles.css?v4" type="text/css" />
+      <link rel="stylesheet" href="/voshod_avto_certs/css/responsive.css?v4" type="text/css" />
+      <link rel="stylesheet" href="/voshod_avto_certs/css/animations.css?v4" type="text/css" />
+      <link rel="stylesheet" href="/voshod_avto_certs/css/main.css?v4" type="text/css" />
+      <link rel="stylesheet" href="/voshod_avto_certs/css/custom.css?v4" type="text/css" />
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
+    <body class="native">
 
       <header>
-
+        <!-- Top Tabs -->
         <div class="top_tabs">
-          <div class="top_tabs_container">
-              <a href="https://v-avto.ru/business" target="_blank" title="Корпоративным клиентам"><div class="item tlink"><img class="tlink" src="/voshod_avto_certs/img/ic_vbiz_logo_dark.svg" alt=""/> Восход.Бизнес</div></a>
-              <a href="https://v-avto.ru/" target="_blank" title="Автотовары оптом"><div class="item tlink"><img class="tlink" src="/voshod_avto_certs/img/ic_vavto_logo_dark.svg" alt=""/> Восход.Авто</div></a>
-              <a href="http://v-service.pro/" target="_blank" title="Автосервис и ПЗМ"><div class="item tlink"><img class="tlink" src="/voshod_avto_certs/img/ic_vavto_logo_dark.svg" alt=""/> Восход.Сервис</div></a>
+          <div class="top_tabs_container main_size">
+              <ul class="tabs">
+                  <li class="tab col s3"><a href="https://voshod.group/" target="_blank"><div class="item tlink"><img class="tlink" src="/voshod_avto_certs/img/ic_tab_vavto_logo_dark.svg" alt=""/> О компании</div></a></li>
+                  <li class="tab col s3"><a href="https://v-avto.ru/" target="_blank"><div class="item tlink active"><img class="tlink" src="/voshod_avto_certs/img/ic_topbar_shop_dark.svg" alt=""/> Запчасти оптом</div></a></li>
+                  <li class="tab col s3"><a href="http://voshod.help/" target="_blank"><div class="item tlink"><img class="tlink" src="/voshod_avto_certs/img/ic_topbar_help_dark.svg" alt=""/> Помощь</div></a></li>
+                  <li class="tab col s3"><a href="https://autoshock.ru/authors/voshod/" target="_blank"><div class="item tlink"><img class="tlink" src="/voshod_avto_certs/img/ic_topbar_blog_dark.svg" alt=""/> Блог</div></a></li>
+              </ul>
           </div>
         </div>
 
         <div class="header_red_panel">
-        	<div class="header_red_panel_container">
+          <div class="header_red_panel_container main_size">
               <div class="v-avto_logo tlink"><a href="https://v-avto.ru"><img src="/voshod_avto_certs/img/v-auto_logo.svg" alt=""/></a></div>
-              <div class="header_phone"><span>+7 (351) 217-45-45</span>&nbsp;<a href="https://v-avto.ru/contacts" target="_blank">контакты</a></div>
+              <div class="header_location" title="Выберите ваш город">г. Комсомольск на Амуре</div>
+              <div class="header_phone"><span>+7 (351) 217-45-45</span>&nbsp;<a href="https:/v-avto.rus/contacts">контакты</a></div>
+              <!-- Authorized User -->
+              <a class="profile_menu_container dropdown-trigger" data-target="user_menu">
+                  <div class="accaunt_name">ИП Иванов (Восход)</div>
+                  <div class="user_balance"><span class="caption">Баланс:</span>&nbsp;<span class="count">1000000</span>&nbsp;<span class="rur">⃏</span></div>
+              </a>
+              <ul id="user_menu" class="user_dropdown_menu dropdown-content">
+                  <li><a href="#!"><i class="menu-icons ic_user"></i>Личный профиль</a></li>
+                  <li><a href="#!"><i class="menu-icons ic_cart"></i>Корзина</a></li>
+                  <li><a href="#!"><i class="menu-icons ic_orders"></i>Заказы</a></li>
+                  <li><a href="#!"><i class="menu-icons ic_favorites"></i>Избранное</a></li>
+                  <li><a href="#!"><i class="menu-icons ic_key"></i>Ключ API</a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li><a href="#!"><i class="menu-icons ic_logout"></i>Выйти</a></li>
+              </ul>
+              <div class="notification_counter new">
+                  <div class="counter">9+</div>
+              </div>
+              <!-- Not authorized -->
+              <div class="login_links_container" style="display: none;">
+                  <div class="links">
+                      <a class="tlink" href="/login">Вход</a>
+                      <a class="tlink" href="/reg">Регистрация</a>
+                  </div>
+              </div>
           </div>
         </div>
 
         <div class="header_search_panel">
-          <div class="header_search_panel_container">
-              <div class="menu_burger"><div class="burger_text tlink">СЕРТИФИКАТЫ ПРОДУКЦИИ</div></div>
-          </div>
-        </div>
 
+
+          <!-- search panel for desktop -->
+          <div class="onlydesktop">
+              <div class="header_search_panel_container main_size">
+                  <div class="menu_burger dropdown-trigger" data-target='dropdown_burger'>
+                      <div class="burger_icon"><div class="icon tlink"></div></div>
+                      <div class="burger_text tlink">Меню</div>
+                  </div>
+                  <div class="desktop_search">
+                      <div class="search_line">
+                          <div class="seach_input">
+                            <input id="search" type="text" class="" placeholder="Наименование / артикул / номер детали / VIN-код">
+                            <div class="search_button tlink"></div>
+                          </div>
+                      </div>
+                      <div class="cart_button_container">
+                          <a class="cart_button tlink"><span class="cart_txt">350 700</span>&nbsp;<span class="rur">&#8399;</span><div class="cart_counter new" data-badge-caption="">35</div></a>
+                          <a class="price_discount tlink active modal-trigger" href="#modal_profit"></a>
+                      </div>
+                      <a class="order_button tlink">Закаказы</a>
+                      <a class="favorites_button tlink"></a>
+                  </div>
+              </div>
+          </div>
+          <!-- END search panel for desktop -->
+
+          <!-- search panel for mobile -->
+          <div class="onlymobile">
+              <div class="header_search_panel_container main_size">
+                  <div class="menu_burger sidenav-trigger" data-target="slide-out">
+                      <div class="burger_icon"><div class="icon tlink"></div></div>
+                  </div>
+                  <div class="mobile_search_container">
+                      <div class="mobile_search_input">
+                          <input id="mobile_search" type="text" class="" placeholder="Поиск">
+                      </div>
+                      <div class="mobile_search_clear_button tlink"></div>
+                      <div class="mobile_search_button tlink"></div>
+
+                      <div class="cart_button_container">
+                          <div class="cart_button tlink"><span class="cart_txt">350 700</span>&nbsp;<span class="rur">&#8399;</span><div class="cart_counter new" data-badge-caption="">5</div></div>
+                          <div class="price_discount tlink active modal-trigger" href="#modal_profit""></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- END search panel for mobile -->
+
+        </div>
       </header>
 
       <main>

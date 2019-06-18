@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_sort_black_small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_sort_black_small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.469269,9.72337649 L14.8106253,2.87156277 C15.0506308,2.49372557 14.7790818,2 14.3313001,2 L3.56876846,2 C3.12235826,2 2.8508092,2.49098265 3.08738603,2.86881985 L7.38279847,9.72406222 C7.43971406,9.81457857 7.46988618,9.91880952 7.46988618,10.0257834 L7.46988618,15.2099019 C7.46988618,15.6851127 8.01847014,15.9504902 8.39013578,15.6549406 L10.1668621,14.2437084 C10.3019509,14.1360487 10.3808098,13.9721593 10.3808098,13.7993553 L10.3808098,10.0271549 C10.3808098,9.91949525 10.4116677,9.81457857 10.469269,9.72337649 Z" id="ic_sort" stroke="#323232" stroke-width="1.4"></path>
+    </g>
+</svg>

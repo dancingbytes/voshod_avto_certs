@@ -9,9 +9,9 @@ tossing
 
 .tossing{
 	animation-name: tossing;
-	-webkit-animation-name: tossing;	
+	-webkit-animation-name: tossing;
 
-	animation-duration: 2.5s;	
+	animation-duration: 2.5s;
 	-webkit-animation-duration: 2.5s;
 
 	animation-iteration-count: infinite;
@@ -20,33 +20,33 @@ tossing
 
 @keyframes tossing {
 	0% {
-		transform: rotate(-4deg);	
+		transform: rotate(-4deg);
 	}
 	50% {
 		transform: rotate(4deg);
 	}
 	100% {
-		transform: rotate(-4deg);	
-	}						
+		transform: rotate(-4deg);
+	}
 }
 
 @-webkit-keyframes tossing {
 	0% {
-		-webkit-transform: rotate(-4deg);	
+		-webkit-transform: rotate(-4deg);
 	}
 	50% {
 		-webkit-transform: rotate(4deg);
 	}
 	100% {
-		-webkit-transform: rotate(-4deg);	
-	}				
+		-webkit-transform: rotate(-4deg);
+	}
 }
 
 .tossing2{
 	animation-name: tossing2;
-	-webkit-animation-name: tossing2;	
+	-webkit-animation-name: tossing2;
 
-	animation-duration: 2.5s;	
+	animation-duration: 2.5s;
 	-webkit-animation-duration: 2.5s;
 
 	animation-iteration-count: infinite;
@@ -55,55 +55,194 @@ tossing
 
 @keyframes tossing2 {
 	0% {
-		transform: rotate(0deg);	
+		transform: rotate(0deg);
 	}
 	2% {
 		transform: rotate(-5deg);
 	}
 	3% {
-		transform: rotate(15deg);	
+		transform: rotate(15deg);
 	}
 	6% {
-		transform: rotate(-15deg);	
+		transform: rotate(-15deg);
 	}
 	8% {
-		transform: rotate(15deg);	
+		transform: rotate(15deg);
 	}
 	10% {
-		transform: rotate(-5deg);	
+		transform: rotate(-5deg);
 	}
 	12% {
-		transform: rotate(0deg);	
+		transform: rotate(0deg);
 	}
 	100% {
-		transform: rotate(0deg);	
-	}								
+		transform: rotate(0deg);
+	}
 }
 
 @-webkit-keyframes tossing2 {
 	0% {
-		-webkit-transform: rotate(0deg);	
+		-webkit-transform: rotate(0deg);
 	}
 	2% {
 		-webkit-transform: rotate(-5deg);
 	}
 	4% {
-		-webkit-transform: rotate(15deg);	
+		-webkit-transform: rotate(15deg);
 	}
 	6% {
-		-webkit-transform: rotate(-15deg);	
+		-webkit-transform: rotate(-15deg);
 	}
 	8% {
-		-webkit-transform: rotate(15deg);	
+		-webkit-transform: rotate(15deg);
 	}
 	10% {
-		-webkit-transform: rotate(-5deg);	
+		-webkit-transform: rotate(-5deg);
 	}
 	12% {
-		-webkit-transform: rotate(0deg);	
+		-webkit-transform: rotate(0deg);
 	}
 	100% {
-		-webkit-transform: rotate(0deg);	
-	}											
+		-webkit-transform: rotate(0deg);
+	}
 }
 
+
+/*
+==============================================
+Index Sale BG Animation
+==============================================
+*/
+
+.index_sale {
+    animation-name: indexSale;
+	-webkit-animation-name: indexSale;
+
+	animation-duration: 20s;
+	-webkit-animation-duration: 20s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes indexSale {
+	0% {
+        background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_01.png);
+	}
+    10% {
+        background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_01.png);
+	}
+	20% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_02.png);
+	}
+    30% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_02.png);
+	}
+	40% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_03.png);
+	}
+    50% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_03.png);
+	}
+	60% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_04.png);
+	}
+    70% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_04.png);
+	}
+	80% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_05.png);
+	}
+    90% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_05.png);
+	}
+	100% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_01.png);
+	}
+}
+
+@-webkit-keyframes indexSale {
+    0% {
+        background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_01.png);
+	}
+    10% {
+        background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_01.png);
+	}
+	20% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_02.png);
+	}
+    30% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_02.png);
+	}
+	40% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_03.png);
+	}
+    50% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_03.png);
+	}
+	60% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_04.png);
+	}
+    70% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_04.png);
+	}
+	80% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_05.png);
+	}
+    90% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_05.png);
+	}
+	100% {
+		background-image: url(/voshod_avto_certs/img/sale/gr_sale_bg_01.png);
+	}
+}
+
+/*
+==============================================
+slideExpandUp
+==============================================
+*/
+
+
+.slideExpandUp{
+	animation-name: slideExpandUp;
+	-webkit-animation-name: slideExpandUp;
+
+	animation-duration: 0.5s;
+	-webkit-animation-duration: 0.5s;
+
+	animation-timing-function: ease-out;
+	-webkit-animation-timing-function: ease -out;
+
+	visibility: visible !important;
+}
+
+@keyframes slideExpandUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	60%{
+		-webkit-transform: translateY(-12%);
+	}
+	80%{
+		-webkit-transform: translateY(6%);
+	}
+	100%{
+		-webkit-transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes slideExpandUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	60%{
+		-webkit-transform: translateY(-12%);
+	}
+	80%{
+		-webkit-transform: translateY(6%);
+	}
+	100%{
+		-webkit-transform: translateY(0%);
+	}
+}

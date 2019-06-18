@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_logout_black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_logout_black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(2.000000, 2.000000)" fill="#000000">
+            <polygon id="Fill-1" points="6 8 8 8 8 0 6 0"></polygon>
+            <path d="M7,14 C3.14,14 0,10.859 0,7 C0,4.912 0.924,2.949 2.536,1.614 L3.812,3.155 C2.66,4.108 2,5.51 2,7 C2,9.757 4.243,12 7,12 C9.757,12 12,9.757 12,7 C12,5.552 11.373,4.176 10.279,3.225 L11.592,1.716 C13.122,3.047 14,4.973 14,7 C14,10.859 10.859,14 7,14" id="Fill-2"></path>
+        </g>
+    </g>
+</svg>

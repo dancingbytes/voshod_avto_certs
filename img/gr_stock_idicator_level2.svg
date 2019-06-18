@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="10px" viewBox="0 0 75 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>gr_stock_idicator_level2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="gr_stock_idicator_level2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-1" fill="#F38996" cx="5" cy="5" r="5"></circle>
+        <circle id="Oval-2" fill="#F38996" cx="18" cy="5" r="5"></circle>
+        <circle id="Oval-3" fill="#EBEBEB" cx="31" cy="5" r="5"></circle>
+        <circle id="Oval-4" fill="#EBEBEB" cx="44" cy="5" r="5"></circle>
+        <circle id="Oval-5" fill="#EBEBEB" cx="57" cy="5" r="5"></circle>
+        <circle id="Oval-6" fill="#EBEBEB" cx="70" cy="5" r="5"></circle>
+    </g>
+</svg>

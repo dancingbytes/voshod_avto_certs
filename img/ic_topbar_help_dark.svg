@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_topbar_help_dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00024 0 16 0 16 16 0.00024 16"></polygon>
+    </defs>
+    <g id="ic_topbar_help_dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(4.000000, 4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M10.45624,7.4 L9.73624,8.136 C9.16024,8.72 8.80024,9.2 8.80024,10.4 L7.20024,10.4 L7.20024,10 C7.20024,9.12 7.56024,8.32 8.13624,7.736 L9.12824,6.728 C9.42424,6.44 9.60024,6.04 9.60024,5.6 C9.60024,4.72 8.87944,4 8.00024,4 C7.12024,4 6.40024,4.72 6.40024,5.6 L4.80024,5.6 C4.80024,3.832 6.23224,2.4 8.00024,2.4 C9.76824,2.4 11.20024,3.832 11.20024,5.6 C11.20024,6.304 10.91144,6.944 10.45624,7.4 L10.45624,7.4 Z M7.20024,13.6 L8.80024,13.6 L8.80024,12 L7.20024,12 L7.20024,13.6 Z M8.00024,0 C3.58424,0 0.00024,3.584 0.00024,8 C0.00024,12.416 3.58424,16 8.00024,16 C12.41544,16 16.00024,12.416 16.00024,8 C16.00024,3.584 12.41544,0 8.00024,0 L8.00024,0 Z" id="Fill-1" fill="#1A171B" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

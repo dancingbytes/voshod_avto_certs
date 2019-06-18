@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_filter_grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_filter_grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M13.7219379,13.0185857 L18.7913818,5.01765637 C19.0716385,4.5764522 18.754548,3.99992407 18.231669,3.99992407 L5.66415645,3.99992407 C5.14287893,3.99992407 4.82578845,4.57324927 5.10204152,5.01445344 L10.1178363,13.0193864 C10.1842972,13.1250833 10.2195294,13.2467948 10.2195294,13.3717092 L10.2195294,19.4252546 C10.2195294,19.9801629 10.8601163,20.2900468 11.2941138,19.9449307 L13.3688144,18.2970211 C13.5265589,18.1713059 13.6186432,17.9799306 13.6186432,17.7781457 L13.6186432,13.3733107 C13.6186432,13.2475955 13.6546762,13.1250833 13.7219379,13.0185857 Z" id="Page-1" stroke="#4A4A4A" stroke-width="1.4"></path>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_orders_black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_orders_black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,7 L10,3 L13.969,7 L10,7 Z M6,11 L13,11 L13,10 L6,10 L6,11 Z M6,13 L11,13 L11,12 L6,12 L6,13 Z M10.875,2 L5.375,2 C4.619,2 4.007,2.63 4.007,3.4 L4,14.6 C4,15.37 4.612,16 5.368,16 L13.625,16 C14.381,16 15,15.37 15,14.6 L15,6.2 L10.875,2 Z" id="Fill-1" fill="#000000"></path>
+    </g>
+</svg>
